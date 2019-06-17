@@ -92,7 +92,7 @@
                 <div class="content-header bg-white-5">
                     <!-- Logo -->
                     <a class="font-w600 text-dual" href="{{ url('/admin')}}">
-                        <img width="80" style="margin-left: -28px;" src="{{url('/')}}/themes/default/assets/backend/media/photos/boomvel-logo-02-.png">
+                        <img width="80" style="margin-left: -28px;" src="{{url('/')}}/themes/default/assets/backend/media/photos/boomvel-logo-02.png">
                         <span class="smini-hide">
                             <span class="font-w900 font-size-h3">Boom<b>vel</b></span>
                         </span>

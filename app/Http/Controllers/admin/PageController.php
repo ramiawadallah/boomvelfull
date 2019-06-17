@@ -42,10 +42,10 @@ class PageController extends Controller
      */
     public function create()
     {
-        //$page = $this->pages->findOrFail($id);
+        $pages = Page::all();
         $templates = $this->getPageTemplate();
         $orderPages = $this->pages->all();
-        return view('admin.pages.create',compact('page','orderPages', 'templates'));
+        return view('admin.pages.create',compact('pages','orderPages', 'templates'));
         //return \Control::create('page');
     }
 

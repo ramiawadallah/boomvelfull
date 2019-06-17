@@ -3,12 +3,12 @@
 return [
 
 	'theme' => [
-		'folder' => 'themes',
+		'folder' => 'public/themes',
 		'active' => 'default'
 	],
 
 	'templates' => [
-		
+		'home'	=> App\Template\HomeTemplate::class,
 	]
 
 ];
